@@ -3,7 +3,7 @@ TARGET   = testmodule
 OBJS     = main.o
 
 LIBS = -lc -lSceKernel_stub -lSceDisplay_stub -lSceGxm_stub	\
-	-lSceCtrl_stub -lSceTouch_stub
+	-lSceCtrl_stub -lSceTouch_stub -lScePower_stub
 
 PREFIX  = arm-vita-eabi
 CC      = $(PREFIX)-gcc
